@@ -1,0 +1,100 @@
+.body {
+	margin: 0;
+
+	padding: 0;
+}
+.tarea-1 {
+	display: flex;
+	width: 400px;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	border-bottom: 2px solid;
+	background-color: #727171;
+}
+.img-1 {
+	width: 200px;
+	margin: auto;
+}
+.btn {
+	display: inline-block;
+	padding: 10px 20px;
+	width: 100px;
+	background-color: #000000;
+	color: rgb(243, 243, 243);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 10px;
+}
+.tarea-2 h2 {
+	text-align: center;
+}
+.desafio2 {
+	background-color: #727171;
+	text-align: center;
+	width: 300px;
+	margin: auto;
+}
+.imgSticker {
+	display: flex;
+	flex-direction: column;
+}
+.btn:hover {
+	background-color: #0056b3;
+}
+.imgSticker {
+	width: 200px;
+	object-fit: cover;
+}
+.tarea-2 {
+	display: grid;
+	width: 800px;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	background-color: #727171;
+	padding: 10px;
+	border-bottom: 2px solid;
+}
+.tarea-3 {
+	display: flex;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 50px;
+	border-bottom: 2px solid;
+}
+.container {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	background-image: url(https://i.kym-cdn.com/photos/images/original/002/418/818/49a.jpg);
+	background-position: center;
+	background-size: cover;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+	text-align: center;
+}
+
+.number-select {
+	padding: 10px;
+	font-size: 16px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+	width: 100px;
+}
+
+h1 {
+	margin-bottom: 20px;
+	color: #141414;
+}
